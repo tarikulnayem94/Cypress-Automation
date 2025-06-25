@@ -1,0 +1,35 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "NPF",
+  "license": "ISC",
+  "author": "Tarikul Nayem",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "clean:html": "rimraf cypress/reports/html",
+    "clean:json": "rimraf cypress/reports/mochawesome/*.json",
+    "test": "cypress run --reporter mochawesome --reporter-options reportDir=cypress/reports/mochawesome,overwrite=false,html=false,json=true",
+    "merge:json": "mochawesome-merge cypress/reports/mochawesome/*.json -o cypress/reports/mochawesome/mochawesome.json",
+    "generate:html": "marge cypress/reports/mochawesome/mochawesome.json -f report -o cypress/reports/html",
+    "test:html:fresh": "npm run clean:html && npm run clean:json && npm run test && npm run merge:json && npm run generate:html"
+  },
+  "dependencies": {
+    "cypress": "^14.4.1",
+    "cypressautomation": "file:"
+  },
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.3.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-real-events": "^1.14.0",
+    "cypress-xpath": "^2.0.1",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^5.0.0",
+    "mochawesome-report-generator": "^6.2.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "rimraf": "^6.0.1",
+    "webpack": "^5.99.9"
+  }
+}

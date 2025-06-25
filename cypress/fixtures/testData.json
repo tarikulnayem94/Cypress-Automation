@@ -1,0 +1,103 @@
+{
+  "login": {
+    "username": "mokbuldev@yopmail.com",
+    "password": "Npf@12345",
+    "mfaCode": "123456",
+    "baseUrl": "https://frontend-npf-dev.softbd.xyz",
+    "loginUrl": "https://login-npf-v2.softbd.xyz/realms/npf-dev/protocol/openid-connect/auth",
+    "authUrl": "https://login-npf-v2.softbd.xyz/realms/npf-dev/login-actions/authenticate"
+  },
+  "page": {
+    "create": {
+      "title_bn": "একনজরে আজকের বাংলাদেশ",
+      "title_en": "Today's Bangladesh at a glance",
+      "content_bn": "This is the body of the document.\n\nThis is a new paragraph below.",
+      "content_en": "This is the body of the document.\n\nThis is a new paragraph below.",
+      "imageFile": "flower.jpg",
+      "uploadBnFiles": ["test.doc", "test.pdf"],
+      "uploadEnFiles": ["test.docx", "sbd.pdf", "sbd2.pdf"]
+    },
+    "view": {
+      "searchTitle": "একনজরে আজকের বাংলাদেশ"
+    },
+    "edit": {
+      "searchTitle": "একনজরে আজকের বাংলাদেশ",
+      "title_bn": "একনজরে আজকের বাংলাদেশ 2",
+      "title_en": "Todays Bangladesh at a Glance 2",
+      "content_bn": "This is the body of the document.\n\nThis is a new paragraph below.",
+      "content_en": "This is the body of the document.\n\nThis is a new paragraph below.",
+      "imageFile": "photo.jpg",
+      "pdfFile": "doc.pdf"
+    },
+    "preview": {
+      "searchTitle": "একনজরে আজকের বাংলাদেশ"
+    },
+    "toggle": {
+      "searchTitle": "একনজরে আজকের বাংলাদেশ"
+    },
+    "delete": {
+      "searchTitle": "একনজরে আজকের বাংলাদেশ"
+    }
+  },
+  "banner": {
+    "create": {
+      "title_bn": "একনজরে আজকের বাংলাদেশ",
+      "title_en": "Todays Bangladesh at a Glance",
+      "content_bn": "This is the body of the document.\n\nThis is a new paragraph below.",
+      "content_en": "This is the body of the document.\n\nThis is a new paragraph below.",
+      "imageFile": "mokbul.jpg",
+      "sortOrder": "1"
+    },
+    "view": {
+      "searchTitle": "একনজরে আজকের বাংলাদেশ"
+    },
+    "edit": {
+      "searchTitle": "একনজরে আজকের বাংলাদেশ",
+      "title_bn": "একনজরে আজকের বাংলাদেশ",
+      "title_en": "Todays Bangladesh at a Glance",
+      "content_bn": "This is the body of the document.\n\nThis is a new paragraph below.",
+      "content_en": "This is the body of the document.\n\nThis is a new paragraph below.",
+      "imageFile": "mokbul.jpg",
+      "pdfFile": "Postman.pdf"
+    },
+    "toggle": {
+      "searchTitle": "একনজরে আজকের বাংলাদেশ"
+    },
+    "delete": {
+      "searchTitle": "একনজরে আজকের বাংলাদেশ"
+    }
+  },
+  "news": {
+    "create": {
+      "title_bn": "একনজরে আজকের বাংলাদেশ",
+      "title_en": "Todays Bangladesh at a Glance",
+      "content_bn": "This is the body of the document.\n\nThis is a new paragraph below.",
+      "content_en": "This is the body of the document.\n\nThis is a new paragraph below.",
+      "imageFile": "mokbul.jpg",
+      "pdfFile": "Postman.pdf",
+      "publicationDate": "10/06/2025",
+      "archiveDate": "31/12/2025"
+    },
+    "view": {
+      "searchTitle": "একনজরে আজকের বাংলাদেশ"
+    },
+    "edit": {
+      "searchTitle": "একনজরে আজকের বাংলাদেশ",
+      "title_bn": "একনজরে আজকের বাংলাদেশ",
+      "title_en": "Todays Bangladesh at a Glance",
+      "content_bn": "This is the body of the document.\n\nThis is a new paragraph below.",
+      "content_en": "This is the body of the document.\n\nThis is a new paragraph below.",
+      "imageFile": "mokbul.jpg",
+      "pdfFile": "Postman.pdf"
+    },
+    "preview": {
+      "searchTitle": "একনজরে আজকের বাংলাদেশ"
+    },
+    "toggle": {
+      "searchTitle": "একনজরে আজকের বাংলাদেশ"
+    },
+    "delete": {
+      "searchTitle": "একনজরে আজকের বাংলাদেশ"
+    }
+  }
+}
